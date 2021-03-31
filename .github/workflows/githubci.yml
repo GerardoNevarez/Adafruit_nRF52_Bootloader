@@ -61,7 +61,8 @@ jobs:
           - 'waveshare_nrf52840_eval'
           - 'xiao_nrf52840_ble'
           - 'xiao_nrf52840_ble_sense'
-                    
+          - 'zaphod'
+
     steps:
     - name: Setup Python
       uses: actions/setup-python@v3
